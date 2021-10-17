@@ -1,0 +1,40 @@
+.jokeContainer{
+    position: relative;
+    width: 69vw;
+    height: 67vw;
+    margin: auto;
+    background: url(pexels-juan-vargas-6398329.jpg) no-repeat;
+    background-size: 100%;
+    background-blend-mode: color-dodge;
+   
+}
+
+#headline,#jokes, #jokebtn
+{
+    position: absolute;
+    border-radius: 10px;
+}
+
+#headline
+{
+    font-size: 3.9vw;
+    top: 32%;
+    left: 10%;
+    color: skyblue;
+}
+
+#jokes
+{
+    font-size: 4vw;
+    top: 44%;   
+    left: 5%;
+    color: blueviolet;
+}
+
+#jokebtn
+{
+    font-size: 4vw;
+    top: 86%;
+    left: 76%;
+    background-color: #fff;
+}
